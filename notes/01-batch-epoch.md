@@ -10,23 +10,16 @@
 | 更新次数 | batch数 × epoch数 | 总共咀嚼次数 |
 
 ## 形状变化
-
-```
 总数据: [1000, 1, 28, 28]  全部数据
   ↓ batch_size=32
 每个batch: [32, 1, 28, 28]  ← 每次喂32张
-```
 
 ## 代码骨架
-
-```python
+python
 for epoch in range(10):              # 外层：学10轮
     for x, y in dataloader:          # 内层：分批喂
         loss = model(x, y)
         loss.backward()
         optimizer.step()
-```
-
 ## 跟部署的关系
-
 部署时虽然没有 epoch，但 batch_size 仍然影响推理吞吐量。
