@@ -6,7 +6,7 @@
 
 > **Error Surface = 把模型参数和 loss 画出来的"地形图"。** 横轴是参数值，纵轴是 loss 大小。
 
-![Error Surface 示意图](./error_surface_demo.png)
+![Error Surface 示意图](./误差曲面示意图.png)
 
 ## 直观理解
 

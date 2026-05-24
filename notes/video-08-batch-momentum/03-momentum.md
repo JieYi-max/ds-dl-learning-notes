@@ -9,10 +9,10 @@
 ## 公式对比
 
 **普通 SGD**
-![SGD公式](./formula_sgd.png)
+![SGD公式](./SGD公式.png)
 
 **SGD + Momentum**
-![Momentum公式](./formula_momentum.png)
+![Momentum公式](./动量公式.png)
 
 | 符号 | 含义 | 典型值 |
 |---|---|---|
