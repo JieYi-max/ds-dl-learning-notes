@@ -54,7 +54,6 @@ class SimpleCNN(nn.Module):
 
 ### 完整形状变化
 
-```
 输入图片:        [B, 3, 32, 32]           ← 32×32 彩色图
   ↓ Conv(3→16)   [B, 16, 32, 32]
   ↓ ReLU         [B, 16, 32, 32]          ← 激活函数，不改变形状
@@ -66,7 +65,6 @@ class SimpleCNN(nn.Module):
   ↓ Flatten      [B, 64×4×4=1024]         ← 展平为向量
   ↓ Linear       [B, 256]
   ↓ Linear       [B, 10]                  ← 10 个类别的分数
-```
 
 ---
 

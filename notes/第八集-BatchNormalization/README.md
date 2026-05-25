@@ -16,7 +16,6 @@
 
 ## 整体知识链
 
-```
 问题：神经网络的 error surface 崎岖不平，训练困难
   ↓
 方案 1：Feature Normalization（对输入层做归一化）
@@ -26,4 +25,3 @@
 BN 为什么有效：平滑 error surface（不是 Internal Covariate Shift）
   ↓
 BN 的局限：依赖 batch size → 大模型用 Layer Normalization
-```
