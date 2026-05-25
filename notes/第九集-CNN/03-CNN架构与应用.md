@@ -8,7 +8,7 @@
 
 ## 一句话
 
-> **经典 CNN = 卷积层提取特征 → 池化层压缩 → 展平 → 全连接层分类。**
+> 💡 **经典 CNN = 卷积层提取特征 → 池化层压缩 → 展平 → 全连接层分类。**
 
 ---
 
@@ -95,7 +95,7 @@ class SimpleCNN(nn.Module):
 
 ---
 
-## 关联知识
+🔗 ## 关联知识
 
 - → 第八集学的 **Batch Normalization** 通常加在 Conv → **BN** → ReLU 之间
 - → 下一集可能是 Self-Attention / Transformer，跟 CNN 刚好互补（CNN 擅长局部，Transformer 擅长全局）

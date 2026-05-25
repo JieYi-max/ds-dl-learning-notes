@@ -8,7 +8,7 @@
 
 ## 一句话
 
-> **对神经网络每一层的输出做归一化，方法跟 Feature Normalization 一样，但 μ 和 σ 基于一个 batch 的样本来算。**
+> 💡 **对神经网络每一层的输出做归一化，方法跟 Feature Normalization 一样，但 μ 和 σ 基于一个 batch 的样本来算。**
 
 ---
 
@@ -107,7 +107,7 @@ model = nn.Sequential(
 
 ---
 
-## 关联知识
+🔗 ## 关联知识
 
 - → Feature Normalization 是 BN 的基础，BN 把归一化从输入层扩展到每一层
 - → CNN 作业中你会看到 `Conv2d + BN + ReLU` 是经典组合
