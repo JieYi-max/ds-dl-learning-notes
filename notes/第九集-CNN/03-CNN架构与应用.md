@@ -10,6 +10,20 @@
 
 > 💡 **经典 CNN = 卷积层提取特征 → 池化层压缩 → 展平 → 全连接层分类。**
 
+**流程图（VS Code 预览可看到图形）：**
+
+```mermaid
+graph LR
+    Input(("输入图片<br>3×32×32")) 
+    --> Conv["卷积 Conv2d<br>3→16, 3×3"]
+    --> BN["归一化 BatchNorm2d"]
+    --> ReLU["激活 ReLU"]
+    --> Pool["池化 MaxPool2d<br>2×2"]
+    --> Flat{"展平 Flatten"}
+    --> FC["全连接 Linear<br>256→10"]
+    --> Output(("输出分类<br>10个类别"))
+```
+
 ---
 
 ## 经典 CNN 架构（PPT 第 30 页）
